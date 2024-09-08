@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+#logos{
+    display: flex;
+    align-items: center;
+    margin-left: auto ;
+    justify-content: space-around;
+    width: 100px;
+}
+#menu{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+
+
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    padding-left: 8px;
+}
+.caja{
+    width: 100%;
+    border-top: 1px solid rgb(211, 211, 211);   
+}
+.caja1{
+    width: 100%;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#materias{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 150px;
+    left: 290px;
+    display: flex;
+    width: 80%;
+
+}
+
+.anuncio{
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    position: absolute;
+    top: 75px;
+    left: 278px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    width: 1100px;
+}
+.clase1, .clase2{
+    border-right: 1px solid rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+    border-left: 1px solid rgb(211, 211, 211);
+
+
+}
+img{
+    border-radius: 10px;
+}
+.texto{
+    margin-top: 100px;
+    padding: 5px;
+}
+.item{
+    margin-top: 80px;
+    padding: 5px;
+}
